@@ -1,0 +1,42 @@
+
+.github-card {
+  max-width: 320px;
+  margin: 40px auto;
+  padding: 24px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #24292f;
+  border: 1px solid #d0d7de;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.github-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.github-card h2 {
+  margin: 16px 0;
+}
+
+.github-card p {
+  color: #57606a;
+}
+
+.github-card a {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+  color: white;
+  background: #24292f;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.github-card a:hover {
+  background: #444c56;
+}
